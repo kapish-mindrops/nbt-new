@@ -36,8 +36,11 @@ img {
   color: #fff;
   width: 50%;
 }
+.navbar-brand {
+  margin-right: 0;
+}
 .navbar-brand img {
-  width: 75%;
+  width: 69%;
 }
 
 form {
@@ -75,13 +78,17 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
 }
 .navi .btn {
   background-color: #02ada7;
   color: #fff;
-  margin-bottom: 1rem;
-  width: 90%;
-  height: 50px;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* book section */
 .book-titel {
@@ -120,9 +127,6 @@ form {
   color: #fff;
   background-color: var(--bg-color);
   padding: 1.5rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 /* stall page */
