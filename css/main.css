@@ -1,0 +1,154 @@
+:root {
+  --primary-color: #ec3078;
+  --secandry-color: #b30447;
+  --btn-color: #890034;
+  --bg-color: #99365c;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #333;
+}
+.bg-light-gray {
+  background-color: #e7e7e7;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--secandry-color);
+}
+.form-control {
+  width: 100%;
+}
+.btn-bg {
+  background-color: var(--btn-color);
+  color: #fff;
+}
+
+form {
+  width: 100%;
+}
+.form-control {
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff !important;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  transition: all ease 0.3s;
+}
+.form-control::placeholder {
+  color: #fff;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  background: var(--bg-color);
+}
+.btn.search {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.navbar > .container {
+  flex-wrap: nowrap;
+}
+
+/* book section */
+.book-titel {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.book-titel p {
+  margin-right: 20px;
+}
+/* modal */
+.modal {
+  top: auto;
+}
+.modal-title {
+  color: var(--secandry-color);
+}
+#staticBackdrop {
+  animation: bounceInUp;
+  animation-duration: 0.5s;
+}
+
+/* button group */
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+.tabs .btn {
+  padding: 10px 0;
+  background-color: #ebebeb;
+}
+
+.timing {
+  text-align: center;
+  color: #fff;
+  background-color: var(--bg-color);
+  padding: 1.5rem;
+}
+
+/* stall page */
+.stall {
+  padding: 1.5rem 0;
+
+  border-radius: 5px;
+  flex-grow: 1;
+  margin: 10px;
+  text-align: center;
+}
+.stall-1 {
+  background: linear-gradient(
+    335deg,
+    rgba(251, 175, 93, 1) 50%,
+    rgba(253, 184, 109, 1) 50%
+  );
+}
+.stall-2 {
+  background: linear-gradient(
+    335deg,
+    rgba(223, 93, 251, 1) 50%,
+    rgba(232, 125, 254, 1) 50%
+  );
+}
+.stall-3 {
+  background: linear-gradient(
+    335deg,
+    rgba(93, 197, 251, 1) 50%,
+    rgba(120, 208, 254, 1) 50%
+  );
+}
+.stall-4 {
+  background: linear-gradient(
+    335deg,
+    rgba(170, 227, 59, 1) 50%,
+    rgba(184, 237, 82, 1) 50%
+  );
+}
+.stall-5 {
+  background: linear-gradient(
+    335deg,
+    rgba(244, 235, 112, 1) 50%,
+    rgba(250, 241, 128, 1) 50%
+  );
+}
+.stall-6 {
+  background: linear-gradient(
+    335deg,
+    rgba(255, 123, 123, 1) 50%,
+    rgba(255, 142, 142, 1) 50%
+  );
+}
