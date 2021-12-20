@@ -23,6 +23,9 @@ img {
 .btn:focus {
   box-shadow: none;
 }
+.bg-light {
+  background-color: red !important;
+}
 
 /* navbar */
 .navbar {
@@ -108,7 +111,9 @@ form {
   animation: bounceInUp;
   animation-duration: 0.5s;
 }
-
+.height {
+  max-height: 100vh;
+}
 /* button group */
 .tabs {
   display: flex;
@@ -124,7 +129,11 @@ form {
   color: #fff;
   background-color: var(--bg-color);
   padding: 1.5rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 /* stall page */
