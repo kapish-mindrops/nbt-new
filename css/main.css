@@ -24,7 +24,7 @@ img {
   box-shadow: none;
 }
 .bg-light {
-  background-color: red !important;
+  background-color: #d8d1d1 !important;
 }
 
 /* navbar */
@@ -114,6 +114,7 @@ form {
 .height {
   max-height: 100vh;
 }
+
 /* button group */
 .tabs {
   display: flex;
