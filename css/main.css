@@ -4,6 +4,9 @@
   --btn-color: #890034;
   --bg-color: #99365c;
 }
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   height: 100vh;
