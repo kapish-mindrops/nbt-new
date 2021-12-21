@@ -9,7 +9,7 @@
 }
 html,
 body {
-  height: 100vh;
+  height: 75vh;
 }
 p {
   margin: 0;
@@ -118,9 +118,6 @@ form {
   animation: bounceInUp;
   animation-duration: 0.5s;
 }
-/* .height {
-  max-height: 100vh;
-} */
 
 /* button group */
 .tabs {
