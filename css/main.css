@@ -84,7 +84,7 @@ form {
 .navi {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: calc(100vh - 358px);
   padding: 0 15px;
 }
