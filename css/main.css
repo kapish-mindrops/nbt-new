@@ -7,7 +7,10 @@
 * {
   box-sizing: border-box;
 }
-
+html,
+body {
+  height: 100vh;
+}
 p {
   margin: 0;
 }
@@ -82,13 +85,17 @@ form {
 
 /* home */
 .navi {
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 358px);
+  /* height: 47.5vh; */
+  padding: 0 15px;
 }
 .navi .btn {
   background-color: #02ada7;
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
   padding: 10px 0;
   width: 100%;
   display: flex;
@@ -132,14 +139,11 @@ form {
   color: #fff;
   background-color: var(--bg-color);
   padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .banner {
-  height: auto;
+  height: 150px;
   padding: 0;
+  overflow: hidden;
 }
 
 /* hall page */
