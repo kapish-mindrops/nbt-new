@@ -91,6 +91,7 @@ form {
 .navi .btn {
   background-color: #02ada7;
   color: #fff;
+  margin-bottom: 15px;
   padding: 10px 0;
   width: 100%;
   display: flex;
@@ -138,6 +139,7 @@ form {
 .banner {
   height: 150px;
   padding: 0;
+  overflow: hidden;
 }
 
 /* hall page */
