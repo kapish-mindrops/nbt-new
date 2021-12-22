@@ -8,7 +8,8 @@
   box-sizing: border-box;
 }
 .height {
-  max-height: 100vh;
+  background: goldenrod;
+  overflow: auto;
 }
 p {
   margin: 0;
@@ -83,19 +84,6 @@ form {
 }
 
 /* home */
-html {
-  height: 100%;
-}
-body {
-  min-height: 100%;
-}
-html,
-body {
-  background: goldenrod;
-  min-height: 100%;
-  min-height: 100vh;
-  overflow: auto;
-}
 .navi {
   margin-top: 25px;
   height: 42vh;
