@@ -88,7 +88,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh - 361.39px);
+  height: calc(100vh - 365.26px);
   /* height: 47.5vh; */
   padding: 0 15px;
 }
