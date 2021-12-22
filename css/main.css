@@ -84,6 +84,7 @@ form {
 .navi {
   display: grid;
   align-items: center;
+  height: 45vh;
 }
 .navi .btn {
   background-color: #02ada7;
@@ -132,10 +133,9 @@ form {
   color: #fff;
   background-color: var(--bg-color);
   padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .banner {
   height: auto;
