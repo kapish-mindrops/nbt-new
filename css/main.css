@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 .height {
-  background: goldenrod;
   overflow: auto;
 }
 p {
