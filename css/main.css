@@ -82,14 +82,15 @@ form {
 
 /* home */
 .navi {
-  display: grid;
-  align-items: center;
-  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: calc(100vh - 358px);
+  padding: 0 15px;
 }
 .navi .btn {
   background-color: #02ada7;
   color: #fff;
-  margin-bottom: 1rem;
   padding: 10px 0;
   width: 100%;
   display: flex;
@@ -133,12 +134,9 @@ form {
   color: #fff;
   background-color: var(--bg-color);
   padding: 1.5rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 .banner {
-  height: auto;
+  height: 150px;
   padding: 0;
 }
 
