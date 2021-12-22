@@ -154,6 +154,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 17vh;
+  position: absolute;
+  bottom: 0;
 }
 .banner {
   height: auto;
