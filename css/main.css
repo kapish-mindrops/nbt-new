@@ -86,7 +86,7 @@ form {
 .navi {
   margin-top: 25px;
   height: 42vh;
-  display: flex;
+  display: grid;
   align-items: center;
 }
 .navi .btn {
