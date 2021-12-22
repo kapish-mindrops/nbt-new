@@ -7,9 +7,8 @@
 * {
   box-sizing: border-box;
 }
-html,
-body {
-  height: 100vh;
+.height {
+  max-height: 100vh;
 }
 p {
   margin: 0;
@@ -86,6 +85,9 @@ form {
 /* home */
 .navi {
   margin-top: 25px;
+  height: 42vh;
+  display: flex;
+  align-items: center;
 }
 .navi .btn {
   background-color: #02ada7;
@@ -145,7 +147,7 @@ form {
   padding: 0;
 }
 
-/* stall page */
+/* hall page */
 .stall {
   padding: 1.5rem 0;
 
