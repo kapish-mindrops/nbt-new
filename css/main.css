@@ -83,6 +83,19 @@ form {
 }
 
 /* home */
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+html,
+body {
+  background: #e73;
+  min-height: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
 .navi {
   margin-top: 25px;
   height: 42vh;
@@ -140,7 +153,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 17vh;
 }
 .banner {
   height: auto;
