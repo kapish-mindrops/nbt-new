@@ -153,9 +153,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25%CASC;
+  height: calc(25% - 30px);
   position: absolute;
   bottom: 0;
+  left: 0;
 }
 .banner {
   height: auto;
